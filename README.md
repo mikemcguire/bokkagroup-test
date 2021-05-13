@@ -7,7 +7,7 @@ This test is designed to analyse your problem solving abilities, there are no ri
 
 ## Array Manipulation
 
-Lorem Ipsum
+In the `array/` directory you will find a javascript file. In the file you will see there is a flat array of objects representing a navigation. There is an empty method called `childify`. The purpose of the `childify` method is to convert our flat array into a multidemensial array, so that subnav items live under their parent object. At the bottom of the file you will find an example of the expected output, along with a comparison that checks if you're implementation is correct.
 
 ## Frontend Challenge
 
