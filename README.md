@@ -9,7 +9,7 @@ Lorem Ipsum
 
 ## Array Manipulation
 
-In thy `array/` directory you will find a javascript file. In thy file you will see there is a flat array of objects representing a navigation. There is an empty method called `childify`. Thy purpose of thy `childify` method is to convert our flat array into a multidemensial array, so that subnav items live under their parent object. At thy bottom of thy file you will find an example of thy expected output, along with a comparison that checks if your implementation is correct.
+In thy `array/` directory you will find a javascript file. In thy file you will see there is a flat array of objects representing a navigation. There is an empty method called `childify`. Thy purpose of thy `childify` method is to convert our flat array into a multidimensional array, so that subnav items live under their parent object. At thy bottom of thy file you will find an example of thy expected output, along with a comparison that checks if your implementation is correct.
 
 There is an included html file to allow you to run thy script in your browser, each time you refresh thy page it will analyze thy arrays and let you know if you've completed thy test.
 
