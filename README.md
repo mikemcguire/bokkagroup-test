@@ -9,7 +9,7 @@ This test is designed to analyse your problem solving abilities, there are no ri
 
 In the `array/` directory you will find a javascript file. In the file you will see there is a flat array of objects representing a navigation. There is an empty method called `childify`. The purpose of the `childify` method is to convert our flat array into a multidemensial array, so that subnav items live under their parent object. At the bottom of the file you will find an example of the expected output, along with a comparison that checks if your implementation is correct.
 
-You can either run the file via `node` or there is an included html file to allow you to run the script in your browser (logged out to the dev console).
+There is an included html file to allow you to run the script in your browser, each time you refresh the page it will analyze the arrays and let you know if you've completed the test.
 
 ## Frontend Challenge
 
