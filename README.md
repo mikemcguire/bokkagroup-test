@@ -1,9 +1,11 @@
 # Welcome to the Bokka Group Technical Test
 
-This test is designed to analyse your problem solving abilities, there are no right or wrong answers, and no correct or incorrect methods. The test is broken up into three separate challenges, you are free to do the challenges in any order you deem fit. First is an array manipulation challenge where you'll be required to programmatically restructure an array. Second is a frontend challenge where you'll be asked to build a template from a static mockup. Third is a challenge to test your ability to work with git.
+This test is designed to analyse your problem solving abilities, there are no right or wrong answers, and no correct or incorrect methods. The test is broken up into three separate challenges, you are free to do the challenges in any order you deem fit. First, is a challenge to test your ability to work with git. Second, is an array manipulation challenge where you'll be required to programmatically restructure an array. Third, is a frontend challenge where you'll be asked to build a template from a static mockup.
 
 
+## Git problem
 
+Lorem Ipsum
 
 ## Array Manipulation
 
@@ -13,8 +15,6 @@ There is an included html file to allow you to run the script in your browser, e
 
 ## Frontend Challenge
 
-Lorem Ipsum
+For the frontend challenge you will be required to build out a design from a mockup from scratch. Inside the `frontend/` directory you will find the mockup (`mockup.jpg`), a basic `index.html`, and an assets directory that includes all the images you will need & a CSS file that is already linked in `index.html`.
 
-## Git problem
-
-Lorem Ipsum
+A few notes on this test, it is not necessary to include vendor prefixes or to setup any build scripts. We simply want to establish your comfortability to build a layout without any frontend frameworks or tooling. Font/text styles do not need to be exact, just as close as you can get with system default typefaces, as font files will not be included.
