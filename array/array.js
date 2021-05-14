@@ -58,47 +58,7 @@ const flatArray = [
 
 
 
-const childify = (array, newArray = []) => {
-
-  //make sure we actually have items to loop over
-  if(array.length > 0) {
-    const item = array.shift();
-
-    //if it doesnt have a parent just set the item in the top level
-    if(item.parent === null ) {
-      newArray[item.id] = item;
-
-    } else if(item.parent) {
-
-      //if it is a parent we'll set it as a child of it's parent
-      //.children array already exists
-      if(newArray[item.parent].children) {
-        newArray[item.parent].children[item.id] =item;
-      } else {
-
-        //.children array doesn't exist
-        newArray[item.parent].children = [];
-        newArray[item.parent].children[item.id] = item;
-      }
-    }
-  } else {
-    //if there are no more items in the array to loop over we can return the final array we've created.
-
-    //using IDs as index creates empty indices
-    newArray = newArray.filter((i)=>{
-      if(i.children) {
-        //using IDs as index creates empty indices
-        i.children = i.children.filter((i)=>{return i !== null});
-      }
-      return i !== null
-    });
-
-    //return our array
-    return newArray;
-  }
-
-  //keep looping if we have more items in array
-  return childify(array, newArray);
+const childify = (array) => {
 }
 
 
@@ -175,4 +135,3 @@ if(JSON.stringify(childify(flatArray)) == JSON.stringify(finalArray)) {
   element.innerHTML="Something isn't right here, check your code and try again.";
   element.style.backgroundColor = "#ff0000";
 }
-console.log();
