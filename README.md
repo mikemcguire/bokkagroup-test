@@ -7,11 +7,10 @@ This test is designed to analyse your problem-solving abilities, there are no ri
 
 For the git challenge there are a few tasks to be completed.
 
-1. Checkout a new branch, use your name as the branch name.
-2. push your branch up to the remote repository. 
-3. Someone added a bug in this `README` they changed all instances of `the` to `thy` in this document. This isn't the middle ages. Find the commit and let us know which commit this change was added.
-4. Fix the bug and update this document to be read in modern english.
-5. Commit your changes, add a tag to the repository for v1 and push to the remote repository.
+1. Clone this repo and checkout a new branch for your work.
+2. Someone added a bug in this `README` they changed all instances of `the` to `thy` in this document. This isn't the middle ages. Find the commit and let us know which commit this change was added.
+3. Fix the bug and update this document to be read in modern english.
+4. Commit your changes.
 
 ## Array Manipulation
 
